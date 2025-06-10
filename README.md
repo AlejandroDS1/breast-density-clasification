@@ -2,13 +2,16 @@
 
 This repository contains the code developed for the final grade project at the University of Barcelona by Alejandro Cantero. The project focuses on classifying breast density using the DenseNet121 architecture.
 
-## Directory Structure
+## Directory Structure  
 
-- **`preprocess/`**:  
-  Contains scripts and tools for preprocessing mammogram images. These scripts may include resizing, normalization, and augmentation routines to prepare the images before training.
+- **`code/`**:  
+  The main directory with the implementation of the DenseNet121 model, training pipeline, and helper utilities necessary for model development and testing.
 
-- **`project/`**:  
-  The main directory with the implementation of the DenseNet121 model, training pipeline, evaluation scripts, and helper utilities necessary for model development and testing.
+- **`metrics/`**:  
+Contains jupyter notebooks that compute and show metrics belonging to the csv files produced by the model's evaluation.
+
+- **`data_analisis/`**:  
+Contain one jupyter notebook per database. Computes and prints database information usefull to understand the size and shape of the mammograms.
 
 - **`README.md`**:  
   This file. Provides an overview of the project, setup instructions, and explanations of the repository structure.
